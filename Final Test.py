@@ -27,9 +27,7 @@ from keras.layers import Flatten
 from keras.layers import Dense
 from keras import backend as K
 
-
 img_width, img_height = 150, 150
-
 
 if K.image_data_format() == 'channels_first': 
 	input_shape = (3, img_width, img_height) 
